@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BR:wght@100..400&display=swap');
+
+:root {
+    --font-family: "Playwrite BR", cursive;
+    /* --font-family2:  */
+    --bg-color: #4535C1;
+    --Primary-color: #77E4C8;   
+}
+
+body {
+    display: flex;
+    line-height: 1.5;
+    background-color: var(--bg-color);
+    color: var(--Primary-color);
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+    font-optical-sizing: auto;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px solid var(--Primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 0;
+    background: var(--Primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+}
